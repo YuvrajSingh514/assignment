@@ -1,0 +1,45 @@
+import 'dart:async';
+import 'package:assignment/announcements/network/announcements_model.dart';
+
+class AnnouncementsService {
+  Future<List<AnnouncementsModel>> fetchAnnouncements() async {
+    await Future.delayed(Duration(seconds: 1));
+
+    final List<Map<String, dynamic>> jsonData = [
+      {
+        "title": "Server Maintenance",
+        "description": "Scheduled downtime on Sunday from 2 AM to 5 AM."
+      },
+      {
+        "title": "New Feature Release",
+        "description": "We’ve added dark mode! Check your settings."
+      },
+      {
+        "title": "Security Update",
+        "description": "All users are required to reset passwords this week."
+      },
+      {
+        "title": "Donation Drive Success",
+        "description": "Thanks to you, we raised ₹50,000 for our cause!"
+      },
+      {
+        "title": "App Version 2.0",
+        "description": "Major UI overhaul and bug fixes in this version."
+      },
+      {
+        "title": "New Blog Post",
+        "description": "Read our latest blog post on sustainability."
+      },
+      {
+        "title": "Referral Program Launched",
+        "description": "Invite friends and earn rewards."
+      },
+      {
+        "title": "Support Center Hours Extended",
+        "description": "We’re now available 24/7 to assist you."
+      }
+    ];
+
+    return jsonData.map((json) => AnnouncementsModel.fromJson(json)).toList();
+  }
+}
