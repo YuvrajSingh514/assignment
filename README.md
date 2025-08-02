@@ -11,3 +11,9 @@ A clean and modular Flutter application that demonstrates user authentication, d
 - Bottom Navigation Bar and Material 3 styling
 - State management using BLoC pattern
 - Data loaded from local JSON with model parsing
+
+## screenshots
+### Login Screen
+
+<img src="screenshots/login_screen.png" alt="Login" width="350"/>
+
