@@ -17,10 +17,14 @@ A clean and modular Flutter application that demonstrates user authentication, d
 
  ![login Screen](https://github.com/YuvrajSingh514/assignment/blob/main/Screenshot_20250802-165727.jpg)
 
-### Dashboard
- ![ashboard Screen](https://github.com/YuvrajSingh514/assignment/blob/main/Screenshot_20250802-165152.jpg)
+### Dashboard screen
+ ![dashboard Screen](https://github.com/YuvrajSingh514/assignment/blob/main/Screenshot_20250802-165152.jpg)
 
- ### Leaderboard
+### Leaderboard screen
 
  ![leaderboard screen](https://github.com/YuvrajSingh514/assignment/blob/main/Screenshot_20250802-165206.jpg)
+
+### Announcements screen
+
+![leaderboard screen](https://github.com/YuvrajSingh514/assignment/blob/main/Screenshot_20250802-165213.jpg)
 
