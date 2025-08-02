@@ -1,16 +1,13 @@
 # assignment
 
-A new Flutter project.
+A clean and modular Flutter application that demonstrates user authentication, dashboard, leaderboard ranking, and announcements using BLoC architecture, JSON-based mock data.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Feature
+- Login Screen with Form Validation (email & password)
+- Dashboard displaying top user details
+- Leaderboard sorted by donation amount (descending)
+- Announcements screen showing title and descriptions
+- Bottom Navigation Bar and Material 3 styling
+- State management using BLoC pattern
+- Data loaded from local JSON with model parsing
