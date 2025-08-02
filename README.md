@@ -15,5 +15,5 @@ A clean and modular Flutter application that demonstrates user authentication, d
 ## screenshots
 ### Login Screen
 
-<img src="[https://github.com/YuvrajSingh514/assignment/blob/main/Screenshot_20250802-165727.jpg]" alt="Login" width="350"/>
+ ![Market Screen](https://github.com/YuvrajSingh514/assignment/blob/main/Screenshot_20250802-165727.jpg) alt="Login" width="350"/>
 
